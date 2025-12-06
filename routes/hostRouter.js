@@ -17,7 +17,7 @@ hostRouter.post("/add-home", (req, res, next) => {
     console.log("Filled Data is ====> ", req.body)
     res.send(
         `<h3>Form Filled Successfully</h3>
-        <a href="/">Go To Home</a>`
+        <a href="/">Go To Home</a>` 
     );
 })
 
